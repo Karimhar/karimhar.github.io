@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8"/>
+	  <title>Mon TP</title>
+	</head>
+	<style >
+		.bloc{
+			background-color: rgb(224, 235, 235);
+
+		}
+		.ville{
+			font-size: 16px;
+			font-family: Helvetica;
+			font-weight: bolder;
+		}
+		.Temps{
+			font-size: 12px;
+			font-family: sans-serif;
+		}
+
+		footer{
+			position: absolute;
+			left: 1px;
+			bottom: 2px;
+			
+		}
+		.flex{
+			display: flex;
+			justify-content: space-between;
+			text-align: center;
+		}
+
+		.flex div{
+			width: 400px;
+		}
+		.Header{
+			background-color: rgb(30, 47, 47);
+			color: white;
+			font-size: 30px;
+			text-align:center;
+			font-family: cursive;
+		}
+
+	</style>
+	<body>
+		<h1 class="Header">TP Météo HTML</h1>
+		<div class="flex">
+			<div class="bloc">
+				<h2 class="ville">Paris</h2>
+			  	<p class="Temps">2°, pluvieux.</p>
+			  	<img src="/Users/utilisateur/python/pluie.png" width="35">
+			</div>
+
+			<div class="bloc">
+				<h2 class="ville">Alger</h2>
+			  	<p class="Temps">30°, ensoleillé.</p>
+			  	<img src="/Users/utilisateur/python/soleil.png" width="35">
+			</div>
+
+			<div class="bloc">
+				<h2 class="ville">Oslo</h2>
+			  	<p class="Temps">-5°, ensoleillé.</p>
+			  	<img src="/Users/utilisateur/python/soleil.png" width="35">
+
+			</div>	
+		</div>	
+	  
+	</body>
+	<footer>
+		<p>© Karim Haroun. All rights reserved</p>
+		<p>Icones météo par <a href="https://thenounproject.com/search/collection/?q=weather">Nook Fulloption</a></p>
+	</footer>
+</html>
+
