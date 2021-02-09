@@ -1,0 +1,36 @@
+.city{
+	background-color: rgb(224, 235, 235);
+
+}
+#ville{
+	font-size: 16px;
+	font-family: Helvetica;
+	font-weight: bolder;
+}
+#Temps{
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+footer{
+	position: absolute;
+	left: 1px;
+	bottom: 2px;
+
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.flex div{
+	width: 400px;
+}
+.Header{
+	background-color: rgb(30, 47, 47);
+	color: white;
+	font-size: 30px;
+	text-align:center;
+	font-family: cursive;
+}

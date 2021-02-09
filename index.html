@@ -1,75 +1,45 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
-	<head>
-	  <meta charset="UTF-8"/>
-	  <title>Mon TP</title>
-	</head>
-	<style >
-		.bloc{
-			background-color: rgb(224, 235, 235);
+<head>
+	<meta charset="UTF-8"/>
+	<LINK rel="stylesheet" type="text/css" href="Météo.css">
+	<script type="text/javascript" src="Météo.js"></script>
 
-		}
-		.ville{
-			font-size: 16px;
-			font-family: Helvetica;
-			font-weight: bolder;
-		}
-		.Temps{
-			font-size: 12px;
-			font-family: sans-serif;
-		}
+	<title>Mon TP</title>
+	
+</head src="/Users/utilisateur/TP_HTML/Météo.js" link="/Users/utilisateur/TP_HTML/Météo.css">
+<body>
+<h1 class="Header">TP Météo HTML</h1>
+<select onchange='show(this);'>
+	<option value=''> Choisissez une ville </option>
+	<option value='1'> Paris </option>
+	<option value='2'> Alger</option>
+	<option value='3'> Oslo</option>
+</select>
+<div class="flex">
+	<div class="city" id='div1' style='display:none;'>
+		<h2 id="ville">Paris</h2>
+		<p id="Temps">2°, pluvieux.</p>
+		<img src="./images/pluie.png" width="35">
+	</div>
 
-		footer{
-			position: absolute;
-			left: 1px;
-			bottom: 2px;
-			
-		}
-		.flex{
-			display: flex;
-			justify-content: space-between;
-			text-align: center;
-		}
+	<div class="city" id='div2' style='display:none;'>
+		<h2 id="ville">Alger</h2>
+		<p id="Temps">30°, ensoleillé.</p>
+		<img src="./images/soleil.png" width="35">
+	</div>
 
-		.flex div{
-			width: 400px;
-		}
-		.Header{
-			background-color: rgb(30, 47, 47);
-			color: white;
-			font-size: 30px;
-			text-align:center;
-			font-family: cursive;
-		}
+	<div class="city" id='div3' style='display:none;'>
+		<h2 id="ville">Oslo</h2>
+		<p id="Temps">-5°, ensoleillé.</p>
+		<img src="./images/soleil.png" width="35">
 
-	</style>
-	<body>
-		<h1 class="Header">TP Météo HTML</h1>
-		<div class="flex">
-			<div class="bloc">
-				<h2 class="ville">Paris</h2>
-			  	<p class="Temps">2°, pluvieux.</p>
-			  	<img src="./images/soleil.png" width="35">
-			</div>
+	</div>
+</div>
 
-			<div class="bloc">
-				<h2 class="ville">Alger</h2>
-			  	<p class="Temps">30°, ensoleillé.</p>
-			  	<img src="./images/soleil.png" width="35">
-			</div>
-
-			<div class="bloc">
-				<h2 class="ville">Oslo</h2>
-			  	<p class="Temps">-5°, ensoleillé.</p>
-			  	<img src="./images/soleil.png" width="35">
-
-			</div>	
-		</div>	
-	  
-	</body>
-	<footer>
-		<p>© Karim Haroun. All rights reserved</p>
-		<p>Icones météo par <a href="https://thenounproject.com/search/collection/?q=weather">Nook Fulloption</a></p>
-	</footer>
+</body>
+<footer>
+	<p>© Karim Haroun. All rights reserved</p>
+	<p>Icones météo par <a href="https://thenoucityroject.com/search/collection/?q=weather">Nook Fulloption</a></p>
+</footer>
 </html>
-
